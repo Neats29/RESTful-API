@@ -11,7 +11,6 @@ routes["/update"] = handler.update;
 
 
 
-
 //*** Invokes the right handler or throws error ***//
 var router = function(req, res){
 	var url = req.url;
